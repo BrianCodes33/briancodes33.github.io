@@ -1,0 +1,328 @@
+body, html {
+  height: 100%;
+  font-family: 'Baloo', cursive;
+}
+
+body {
+  padding-top: 50px;
+  font-weight: 300;
+}
+
+img:after {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(255, 250, 0, .3);
+  height: auto;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.btn-secondary {
+  background: #000;
+  color: #fff;
+  width: 250px;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+}
+
+.hero h2 {
+  padding-top: 150px;
+  /*color: #fff;*/
+  color: #fff;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  /*font-weight: lighter;*/
+  font-size: 3em;
+  font-style: oblique;
+  /*color: lightseagreen;*/
+}
+
+.navbar-inverse {
+  /*background: lightseagreen;*/
+  /*color: #fff !important;*/
+}
+
+.navbar-fixed-top li a {
+  color: #fff;
+}
+
+.wide {
+  width: 100%;
+  height: 100%;
+  background-image: url('images/hero.png');
+  background-attachment: fixed;
+  /*background-position: 30% -50%;*/
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wide img {
+  width: 100%;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 14pt;
+  padding: 25px;
+  margin-top: -80px;
+}
+
+.line {
+  padding-top: 20px;
+  white-space: no-wrap;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+/*about*/
+
+.about {
+  height: 400px;
+  color: #000;
+  margin-top: 30px;
+}
+
+section {
+  padding: 30px 30px;
+  height: 500px;
+}
+
+.callouts {
+  margin-top: 50px;
+}
+
+.fa {
+  font-size: 2em;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  background: #000;
+  color: #fff;
+  line-height: 50px;
+  border-radius: 50%;
+}
+
+.who-we-are {
+  width: 75%;
+  margin: 20px auto;
+}
+
+
+/*shows*/
+
+.shows {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.shows img {
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+}
+
+
+/*lessons*/
+
+.lesson-list {
+  border-right: 1px solid #111;
+}
+
+.lessons img {
+  width: 200px;
+  height: 200px;
+}
+
+.list-group-item {
+  border: 0;
+  cursor: pointer;
+}
+
+.col-sm-4 {
+  margin-bottom: 150px !important;
+}
+
+.lesson-content {
+  margin-top: 50px;
+}
+
+.btn-primary {
+  background: #000;
+  margin-top: 7px;
+}
+
+.btn-primary:hover {
+  background: #000;
+}
+
+
+/*repairs*/
+
+.repair-content {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.repair-image {
+  width: 80%;
+  margin-top: 10px;
+}
+
+.repair-form {
+  margin-top: 15px;
+}
+
+.luthier {
+  width: 300px;
+  margin-right: 150px;
+}
+
+.schedule-lesson {
+  margin-top: 150px;
+}
+
+input[type="date"], input[type="text"], textarea {
+  display: block;
+  margin-top: 3px;
+  width: 300px;
+}
+
+.repair-btn {
+  margin-top: 15px;
+  width: 300px;
+}
+
+/*contact*/
+.contact {
+  padding: 25px 0 450px 0;
+  /*background: url(http://cdn.desktopwallpapers4.me/wallpapers/world/1366x768/1/4916-blurred-city-street-1366x768-world-wallpaper.jpg) no-repeat center center fixed;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.contact i {
+  padding: 0 20px;
+  font-size: 0.8em;
+}
+
+.contact h2 {
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-size: 2.5em;
+  border: 1px solid #555;
+  background-color: rgba(0,0,0,0.6);
+  padding-top: 20px;
+  height: 75px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 40px;
+  padding-left: 50px;
+  text-align: center;
+}
+
+#comments {
+  margin-top: 0;
+}
+
+#contactform {
+  height: 215px;
+}
+
+#contactform .right {
+  float: right;
+}
+
+#contactform input,
+#contactform textarea {
+  margin-bottom: 14px;
+  width: 100%;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11px;
+}
+
+#contactform input {
+  padding-left: 15px;
+  height: 44px;
+  border-radius: 0;
+  border: 1px solid black;
+}
+
+#contactform textarea {
+  padding: 15px;
+  height: 280px;
+  border-radius: 0;
+  border: 1px solid black;
+}
+
+#contactform .btn {
+  width: 100%;
+  height: 50px;
+  border-radius: 0;
+  border: 1px solid #333;
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+}
+
+#contactform .btn:hover {
+  background: rgba(9,8,77,0.7);
+}
+
+#map-canvas {
+  width: 100%;
+  /*height: 135px;*/
+  margin-bottom: 15px;
+  border: 2px solid #fff;
+}
+
+#name, #email, #phone {
+  border: 1px solid black;
+}
+
+.instructor:hover {
+  background: #000;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+footer {
+  width: 100%;
+  background: #101010;
+  /*position: fixed;*/
+  /*bottom: 0;*/
+  margin-top: 300px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  font-size: 1.5em;
+}
+
+footer p {
+  margin-left: 30px;
+  margin-top: 15px;
+  color: #fff;
+  font-weight: lighter;
+}
+
+footer .fa {
+  background: none;
+  font-size: 1.3em;
+  margin-right: 15px;
+  margin-top: 5px;
+}

@@ -1,0 +1,297 @@
+@media only screen and (max-width: 500px) {
+    .timeline {
+        overflow-y: scroll;
+    }
+    .carousel {
+      height: 300px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+  #navbarNav {
+    display: none;
+  }
+}
+
+
+
+/*NAV & GLOBALS*/
+body {
+  font-size: 1.1em;
+}
+* {
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.5;
+}
+p {
+  text-align: justify;
+
+}
+
+/*main {
+  width: 80%;
+  margin: 0 auto;
+}*/
+
+.white {
+  color: #F4F4F4 !important;
+}
+
+.dark {
+  color: #292b2c !important;
+}
+
+.img-responsive {
+  height: 254px;
+}
+
+.dark-bg {
+  background: #292b2c;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+blockquote {
+  margin: -30px auto;
+  width: 80%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.btn {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn-primary {
+  border-radius: 0;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  background: rgba(28,28,28,0.9);
+  cursor: pointer;
+  border: 1px solid white !important;
+}
+
+.btn-secondary {
+  border-radius: 0;
+}
+
+.btn-secondary:hover {
+  background: white !important;
+  color: #000 !important;
+  opacity: 0.7;
+  border-radius: 0;
+}
+
+.main-btn {
+  border: 1px solid #F4F4F4 !important;
+}
+
+.bg-inverse {
+  background-color: #e6e6e6 !important;
+  opacity: 0.9;
+}
+
+.jumbotron {
+  background: url('../images/wethepeople.png');
+  background-position: center right;
+  text-indent: 2em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0;
+}
+
+.jumbotron .btn {
+  text-indent: 10px;
+  width: 300px;
+  background: rgba(0,0,0,0.5);
+  color: white;
+}
+
+.btn {
+  background: #e6e6e6;
+  border-radius: none;
+  color: #292b2c;
+  border: none;
+}
+
+.navbar {
+  box-shadow: 0px 10px 75px -2px rgba(0,0,0,0.75);
+}
+
+.navbar-brand {
+  font-size: 2em;
+  margin-left: 1.5em;
+  color: #292b2c !important;
+  font-style: italic;
+}
+
+#navbarNav {
+  margin-left: 2em;
+  margin-top: 0.2em;
+  color: #fff !important;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+}
+
+button.navbar-toggler .navbar-toggler-right {
+  color: #292b2c !important;
+  background: #fff !important;
+}
+
+.nav-item {
+  margin-right: 13px;
+  color: #292b2c !important;
+}
+
+.nav-link {
+  color: #292b2c !important;
+}
+
+/*HISTORY*/
+
+.about {
+  margin-top: 3em;
+}
+
+.info {
+  margin-top: 1.5em;
+  margin-left: 1.5em;
+}
+
+/*.nixon {
+  margin-top: 2.7em;
+}*/
+
+
+/*TIMELINE*/
+
+.timeline-header {
+  /*margin-top: 30px;*/
+}
+
+.timeline {
+  height: 550px;
+}
+
+.text-indent {
+  text-indent: 5%;
+}
+
+.break-in:first-letter {
+  font-size: 3.3em;
+  line-height: 0.7;
+}
+
+cite {
+  margin-top: 50px !important;
+}
+
+/*MEDIA*/
+.media {
+  /*padding: 100px;*/
+  height: 400px;
+}
+
+.carousel-slide {
+  margin-bottom: 200px;
+  color: #292b2c !important;
+}
+
+.carousel {
+  background: #e6e6e6;
+}
+
+.img-fluid {
+  height: 300px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+/*EXPLORE*/
+
+.explore, .media {
+  margin-top: 6em;
+}
+
+.timeline {
+  margin-top: 4em;
+}
+
+.explore, .media {
+  background: #e6e6e6;
+  padding: 3em;
+}
+
+.explore h1 {
+  text-align: center;
+}
+
+.pagination {
+  margin-top: 20px;
+  font-size: bolder;
+}
+
+.navbar-toggler, .navbar-toggler-right,navbar-toggle-icon {
+  color: #000;
+}
+
+.media-text {
+  margin-top: -50px;
+  font-style: italic;
+  font-size: 1em;
+}
+
+.carousel-item {
+  height: 500px;
+  background: #e6e6e6;
+}
+
+
+/*FOOTER*/
+footer {
+  height: 50px;
+  background: #292b2c;
+  color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social {
+  margin-right: 50px;
+}
+
+.copyright p {
+  margin-left: 30px;
+}
+
+.fa {
+  margin: 10px;
+  font-size: 1.3em;
+}
+
+
+.copyright {
+  margin-left: 20px;
+  margin-top: 10px;
+}

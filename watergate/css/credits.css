@@ -1,0 +1,56 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Josefin Sans';
+}
+
+body {
+  /*background: radial-gradient(ellipse at top left, #345 0%, #123 100%);*/
+  overflow: hidden;
+  background: #292b2c;
+  /*background: #292b2c !important;*/
+}
+
+.wrapper {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 400px;
+  margin-left: -200px;
+  /*font: 300 30px/1 'Open Sans Condensed', sans-serif;*/
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  animation: 30s credits linear infinite;
+  background: #292b2c !important;
+}
+
+.movie {
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+.job {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.name {
+  margin-bottom: 50px;
+  font-size: 35px;
+}
+
+@keyframes credits {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: -500%;
+  }
+}
