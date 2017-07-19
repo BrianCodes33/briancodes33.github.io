@@ -159,6 +159,7 @@ a {
   position: absolute;
   top: 210px;
   color: #fff;
+  display: none;
 }
 
 .project:first-child {
