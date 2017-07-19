@@ -41,18 +41,23 @@ a {
 
 
 
-.logo {
+#logo {
   margin-left: 30px;
   margin-top: 35px;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
 }
 
+#logo img {
+  width: 300px;
+  margin-top: -70px;
+  margin-left: -30px;
+}
+
 .pimg1, .pimg2, .pimg3 {
   position: relative;
   opacity: 0.7;
-  background-position: center;
-  background-size: cover;
+
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -60,14 +65,6 @@ a {
 .pimg1 {
   background: url('../img/image_one.jpeg');
   min-height: 100%;
-}
-
-.img-left {
-
-}
-
-.content-right {
-
 }
 
 .pimg2 {
@@ -84,14 +81,21 @@ a {
   font-size: 4em;
 }
 
+.adobe-img {
+  height: 100px;
+  width: 100px;
+  color: #fff;
+}
+
 .skills {
   color: #fff;
-  border: 4px solid #fff;
+  /*border: 4px solid #fff;*/
   padding: 20px;
+  /*font-size: 4em;*/
 }
 
 .pimg3 {
-  background-image: url('../img/image_three.jpeg');
+  background-image: url('../img/la.png');
   min-height: 400px;
 }
 
@@ -125,11 +129,70 @@ a {
   background-color: rgba(0,0,0,0.7);
   color: #fff;
   padding: 20px;
+
 }
 
 .ptext .border.trans {
   background: transparent;
 }
+
+.trans {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  -ms-align-items: center;
+  align-items: center;
+  opacity: 1;
+}
+
+.project {
+  width: 230px;
+  height: 230px;
+  position: relative;
+}
+
+.project h3 {
+  position: absolute;
+  top: 210px;
+  color: #fff;
+}
+
+.project:first-child {
+  background: url('../img/watergate.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.project:nth-child(2) {
+  background: url('../img/baseball.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.project:nth-child(3) {
+  background: url('../img/bigsur.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.project:nth-child(4) {
+  background: url(../img/adam.png);
+  background-position: left;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.project:nth-child(5) {
+  background: url(../img/mccabes.png);
+  background-position: left;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
 
 footer {
   background: #f4f4f4;
