@@ -295,3 +295,16 @@ footer {
   margin-left: 20px;
   margin-top: 10px;
 }
+
+
+@media (max-width: 975px) {
+    .navbar-nav{
+        display:none;
+    }
+    .navbar-brand {
+      font-size: 1.5em;
+    }
+    .fa-bars {
+      margin-top: 5px;
+    }
+}
