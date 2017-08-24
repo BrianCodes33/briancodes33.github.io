@@ -1,0 +1,132 @@
+body {
+  font-family: 'Helvetica Neue';
+  font-weight: 300;
+  font-size: 16px; }
+
+.shop {
+  padding: 30px 0;
+  background: #e8e8e8; }
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+  font-size: 1.3em; }
+  .navbar-nav > li {
+    float: none;
+    display: inline-block; }
+
+.navbar {
+  color: #000; }
+
+nav {
+  border-radius: 0 !important; }
+
+nav a {
+  color: #896b52; }
+
+.fa {
+  font-size: em;
+  margin-left: 13px; }
+
+.nav > li > a:focus, .nav > li > a:hover {
+  background: none; }
+
+.logo {
+  position: absolute;
+  width: 220px;
+  background: transparent; }
+
+.hero {
+  background-image: url("imgs/hero.png");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -20px;
+  background-attachment: fixed; }
+
+.slogan, .slogan-two, .slogan-three {
+  padding-top: 100px;
+  color: #fff;
+  letter-spacing: 0.7em;
+  font-weight: 300 !important;
+  text-transform: uppercase;
+  font-family: Garamond; }
+
+.slogan-two, .slogan-three {
+  color: #000;
+  padding-top: 20px; }
+
+.wine-desc {
+  letter-spacing: 0.07em; }
+
+hr {
+  width: 20%;
+  margin: 25px auto; }
+
+.desc {
+  margin-top: 50px; }
+
+.desc > p {
+  font-family: 'Helvetica Neue';
+  color: #fff;
+  letter-spacing: 0.07em;
+  text-transform: none;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 1.7;
+  font-size: 1.1em;
+  font-weight: 500;
+  font-style: italic; }
+
+.cta {
+  margin-top: 100px;
+  letter-spacing: 0.1em; }
+
+.btn-primary {
+  background: #896b52;
+  border: none;
+  letter-spacing: 0.07em;
+  width: 30%;
+  padding: 10px;
+  border-radius: 0;
+  font-size: 1.2em;
+  margin-top: 20px; }
+
+.btn-secondary {
+  background: #111;
+  color: #fff;
+  border: none;
+  letter-spacing: 0.07em;
+  width: 50%;
+  padding: 10px;
+  border-radius: 0;
+  font-size: 1.2em;
+  margin-top: 20px;
+  display: block;
+  margin: 10px auto; }
+
+img {
+  padding: 10px; }
+
+.btn-secondary:hover {
+  color: #fff; }
+
+.showcase {
+  background: sienna; }
+
+.btn-primary:hover {
+  background: #896b52; }
+
+.fa {
+  margin-right: 15px; }
+
+iframe {
+  margin-top: 20px; }
+
+.contact-row {
+  background: #e8e8e8;
+  padding: 20px;
+  margin-top: 20px; }
+
+/*# sourceMappingURL=style.css.map */
