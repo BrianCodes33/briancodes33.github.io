@@ -1,0 +1,79 @@
+body {
+  font-family:"Lato", sans-serif !important;
+}
+
+hr {
+  width: 70vw;
+  background: #005282;
+  height: 3px;
+}
+
+blockquote {
+  font-size: 3rem;
+}
+
+.checkbox {
+  font-size: 1.5rem;
+}
+
+.btn {
+  background: #005282;
+  border: 0;
+}
+
+/* Calender Section */
+
+.calender {
+  background: #71a1be;
+  color: #ffffff;
+}
+
+.calender img {
+  width: 100px;
+}
+
+.webinar {
+  background: #71a1be;
+  color: #ffffff;
+}
+
+/* Richards Section */
+.richards {
+  background: #05263a;
+  color: #ffffff;
+}
+
+.checkboxes {
+  background: #e8e8e8;
+}
+
+.checkmark {
+  margin-left: 0.5rem;
+}
+
+.checkmark img {
+  margin-top: 0.5rem;
+  float: left;
+  width: 44px;
+}
+
+
+/* Warning */
+.warning {
+  background: #f58c99;
+  color: #ffffff;
+}
+
+.warning img {
+  width: 33px;
+}
+
+.warning h5 {
+  margin-left: 1rem;
+}
+
+.claim {
+  color: #ffffff;
+  background: #05263a;
+  font-weight: lighter;
+}
